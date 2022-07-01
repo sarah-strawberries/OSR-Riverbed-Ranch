@@ -24,55 +24,46 @@
 
   .image-button-container {
     display: flex;
-    height: 250px;
-    text-align: center;
+    flex-wrap: wrap;
+    height: 450px;
     color: white;
+    align-items: center;
+    justify-content: center;
   }
 
-  .bottom-left {
+  .left {
     display: flex;
     background: url(riverbed-ranch-software.png);
     background-size: 100%;
     background-repeat: no-repeat;
     box-shadow: -5px 10px 13px -8px rgba(0, 0, 0, 0.31);
     border: 1px solid whitesmoke;
-
-    top: 80%;
-    left: 45%;
-    transform: translate(-50%, -80%);
     color: grey;
     font-weight: bold;
     text-align: center;
   }
 
-  .bottom-center {
+  .center {
     display: flex;
+
     background: url(about-riverbed-ranch.png);
     background-size: 100%;
     background-repeat: no-repeat;
     box-shadow: -5px 10px 13px -8px rgba(0, 0, 0, 0.31);
     border: 1px solid whitesmoke;
-
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -80%);
     color: grey;
     font-weight: bold;
     text-align: center;
   }
 
 
-  .bottom-right {
+  .right {
     display: flex;
     background: url(about-osr.png);
     background-size: 100%;
     background-repeat: no-repeat;
     box-shadow: -5px 10px 13px -8px rgba(0, 0, 0, 0.31);
     border: 1px solid whitesmoke;
-
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -80%);
     color: grey;
     font-weight: bold;
     text-align: center;
@@ -95,21 +86,25 @@
 
   <a href="https://riverbedranch.org/">
 
-    <div class="bottom-center" style="
-         font: verdana;
+    <div class="left" style="
+         font-family: verdana;
          inline-size: 200px;
-         overflow-wrap: break-word;">
-      Riverbed Ranch Community Software Portal
+         overflow-wrap: break-word;
+         padding: 245px 15px 45px 15px;
+         margin: 8px;">
+      Community Software Portal
     </div>
 
   </a>
 
   <a href="https://riverbed-ranch.com/">
 
-    <div class="bottom-center" style="
-         font: verdana;
+    <div class="center" style="
+         font-family: verdana;
          inline-size: 200px;
-         overflow-wrap: break-word;">
+         overflow-wrap: break-word;
+         padding: 259px 15px 50px 15px;
+         margin: 8px;">
       About Riverbed Ranch
     </div>
 
@@ -118,15 +113,17 @@
 
   <a href="https://osrcommunity.com/">
 
-    <div class="bottom-center" style="
-         font: verdana;
+    <div class="right" style="
+         font-family: verdana;
          inline-size: 200px;
-         overflow-wrap: break-word;">
+         overflow-wrap: break-word;
+         padding: 245px 15px 45px 15px;
+         margin: 8px;">
       About Operation Self-Reliance (OSR)
+
     </div>
 
   </a>
-#comment
 
 </div>
 
