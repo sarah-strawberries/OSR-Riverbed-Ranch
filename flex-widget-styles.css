@@ -1,0 +1,72 @@
+.flex-container {
+    display: flex;
+    height: 250px;
+
+    justify-content: center;
+    align-items: center;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: right 65% top 50%;
+    background-repeat: no-repeat;
+  }
+
+  .flex-container div {
+    background: url(https://static.riverbedranch.org/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 80px;
+    padding: 80px;
+  }
+
+  .image-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left {
+    display: flex;
+    background: url(riverbed-ranch-software.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: -5px 10px 13px -8px rgba(0, 0, 0, 0.31);
+    border: 1px solid whitesmoke;
+    color: darkslategrey;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .center {
+    display: flex;
+
+    background: url(about-riverbed-ranch.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: -5px 10px 13px -8px rgba(0, 0, 0, 0.31);
+    border: 1px solid whitesmoke;
+    color: darkslategrey;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  .right {
+    display: flex;
+    background: url(about-osr.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: -5px 10px 13px -8px rgba(0, 0, 0, 0.31);
+    border: 1px solid whitesmoke;
+    color: darkslategrey;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .footer {
+    display: flex;
+    background-color: darkslategrey;
+    height: 50px;
+  }
